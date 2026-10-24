@@ -1,0 +1,9 @@
+CREATE DATABASE ICE_PUST;
+
+USE ICE_PUST;
+
+CREATE TABLE Student (
+    Roll INT PRIMARY KEY,
+    StudentName VARCHAR(50)
+);
+SELECT * FROM Student;
